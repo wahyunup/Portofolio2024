@@ -4,7 +4,8 @@ body{
 }
 
 .navbar{
-    height: 100px;
+    padding: 20px;
+    background-color: #3B3B3B;
 }
 
 .nav-parent a{
@@ -131,7 +132,7 @@ body{
 #techstack .wrap .text .tech{
     gap: 10px;
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
 #techstack .wrap .text .tech .stack{
@@ -175,5 +176,23 @@ body{
     background-color:#2B2B2B;
 }
 
+@media screen and (max-width:990px) {
+    .home .wrapper .wrap .icon img{
+      display: none;
+    }
 
+    .home .wrapper .wrap .text span{
+    font-size: 43px;
+    display: flex;
+    flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .home .wrapper .wrap .text span{
+        font-size: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        }
+}
 
