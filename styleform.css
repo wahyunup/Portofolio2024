@@ -1,0 +1,103 @@
+body{
+    background-color: #2B2B2B;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar{
+    padding: 20px;
+    background-color: #3B3B3B;
+}
+
+.nav-parent a{
+   height: 40px;
+}
+
+.nav-parent span{
+    color: #A259FF;
+    font-weight:700;
+    margin-left: 5px;
+}
+
+.nav-link:hover{
+    border-bottom: 2.5px solid #A259FF;
+}
+
+.navbar-toggler{
+    background-color: #A259FF;
+}
+
+#form{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+
+#form .container{
+    color: #fff;
+}
+
+.form-control{
+    background-color: #3B3B3B;
+    border-radius: 0;
+    border: none;
+}
+
+.form-control:nth-child(1){
+ padding: 10px 20px;
+}
+
+.form-control::-webkit-input-placeholder{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.btn{
+    width:100% ;
+    border-radius: 0;
+    background-color: #A259FF;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #6232a1;
+    transition: 0.5s;
+}
+
+.contact .socialmedia{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#form .container span{
+    display: flex;
+    justify-content: center;
+}
+
+.contact .socialmedia img{
+    width: 20px;
+}
+
+.contact .socialmedia a{
+   padding: 10px;
+}
+
+.contact .socialmedia a:hover{
+    background-color: #A259FF;
+    padding: 10px;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+
+.footer .wrapper{
+    color: #fff;
+    border-top: 3px solid #3B3B3B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 25px;
+}
