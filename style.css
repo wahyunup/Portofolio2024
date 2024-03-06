@@ -188,11 +188,30 @@ body{
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:576px) {
     .home .wrapper .wrap .text span{
-        font-size: 20px;
+        font-size: 39px;
         display: flex;
         flex-wrap: nowrap;
+        }
+
+        .home .wrapper .wrap .text p{
+            font-size:15px;
+            flex-wrap: nowrap;
+        }
+
+        .home .wrapper{
+            padding: 0 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .home .wrapper .wrap .text .contact .resume a{
+            font-size: 15px;
+        }
+
+        .home .wrapper .wrap .text .socialmedia img {
+            width: 50px;
         }
 }
 
