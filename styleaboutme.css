@@ -1,0 +1,187 @@
+body{
+    background-color: #2B2B2B;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar{
+    padding: 20px;
+    background-color: #3B3B3B;
+}
+
+.nav-parent a{
+   height: 40px;
+}
+
+.nav-parent span{
+    color: #A259FF;
+    font-weight:700;
+    margin-left: 5px;
+}
+
+.nav-link:hover{
+    border-bottom: 2.5px solid #A259FF;
+}
+
+.navbar-toggler{
+    background-color: #A259FF;
+}
+
+.home{
+    display: grid;
+    gap: 400px;
+}
+
+/* Hero start */
+    .hero{
+        margin-top: 201px;
+    }
+
+    .hero .wrapper h1{
+        color: #fff;
+        font-size: 180px;
+        font-weight: 600;
+        display: flex;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .hero .wrapper h1 span:nth-child(1){
+        background: -webkit-linear-gradient(0deg,#fff 0%, #A259FF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .hero .wrapper h2{
+        font-size: 59px;
+        font-weight: 600;
+        background: -webkit-linear-gradient(0deg, #fff 80%, #A259FF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: flex;
+        justify-content: end;
+    }
+
+    .hero .wrapper .overlay img{
+        z-index: 10;
+        margin-top: -220px;
+    }
+
+/* Hero end */
+
+
+/* Myskill start */
+
+.myskill{
+    color: #fff;
+    display: grid;
+    gap: 30px;
+    
+}
+
+.myskill h1{
+    font-size: 87px;
+    font-weight: 600;
+}
+
+.myskill .wrapper .skill h2{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.myskill .wrapper .skill p{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.myskill .wrapper .skill{
+    flex: 1;
+    background-color: #3B3B3B;
+    padding: 100px 40px;
+    border-radius: 11px;
+}
+
+.myskill .wrapper{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.myskill .wrapper .skill:hover{
+    background-image:  linear-gradient(to bottom, #3B3B3B , #A259FF);
+    cursor: pointer;
+}
+
+/* Myskill end */
+
+
+/* education start */
+#education .wrap .text{
+    color: #fff;
+    display: grid;
+    gap: 30px;
+}
+
+#education .wrap .text p:nth-child(1){
+    color: #fff;
+}
+
+#education .wrap .text .education .edulist p:nth-child(2){
+    font-size: 20px;
+    background-color: #A259FF;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+#education .education .edulist{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#education .education .edulist p{
+    font-size: 57px;
+    font-weight: 500;
+}
+
+#education .wrap h1{
+    font-size: 87px;
+    font-weight: 600;
+}
+
+#education .education .edulist .purple{
+    font-size: 36px;
+}
+
+#education .education {
+    background-color: #3B3B3B;
+    padding: 40px 44px;
+    margin-top: auto;
+    border-radius: 10px;
+}
+
+#education .education .majoring{
+    margin-top: -20px;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+#education .education:nth-child(3){
+    background-color:#2B2B2B;
+}
+/* education end */
+
+/* footer start */
+.footer{
+    margin-top: 179px;
+}
+.footer .wrapper{
+    color: #fff;
+    border-top: 3px solid #3B3B3B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 25px;}
+/* footer end */

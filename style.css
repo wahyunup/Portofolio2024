@@ -50,7 +50,7 @@ body{
 .home .wrapper{
     display: flex;
     height: 86vh;
-    padding: 0 186px;
+    /* padding: 0 186px; */
 }
 
 .home .wrapper .wrap .icon img{
