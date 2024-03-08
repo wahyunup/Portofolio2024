@@ -33,7 +33,7 @@ body{
 
 /* Hero start */
     .hero{
-        margin-top: 201px;
+        margin-top: 50px;
     }
 
     .hero .wrapper h1{
@@ -168,8 +168,9 @@ body{
     font-weight: 400;
 }
 
-#education .education:nth-child(3){
-    background-color:#2B2B2B;
+#education .wrap .text .eduwrap{
+    display: grid;
+    gap: 10px;
 }
 /* education end */
 
@@ -185,3 +186,116 @@ body{
     align-items: center;
     padding: 25px 25px;}
 /* footer end */
+
+/* responsive */
+@media screen and (max-width: 1080px) {
+    .home .hero .wrapper h1{
+        font-size: 130px;
+    }
+
+    .home .hero .wrapper h2{
+        font-size: 50px;
+    }
+
+    .hero .wrapper .overlay img{
+        margin-top: -170px;
+    }
+
+    .myskill h1{
+        font-size: 67px;
+        font-weight: 600;
+    }
+
+    .myskill .wrapper .skill h2{
+        font-size: 23px;
+    }
+
+    #education .wrap .text{
+        font-size: 67px;
+    }
+
+    #education .wrap .text .education .edulist p:nth-child(1){
+        font-size: 40px;
+    }
+    
+    #education .wrap .text .education .edulist p:nth-child(2){
+        font-size: 15px;
+    }
+
+    #education .wrap .text .education .majoring{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .home .hero .wrapper h1{
+        font-size: 70px;
+    }
+
+    .home .hero .wrapper h2{
+        font-size: 30px;
+    }
+
+    .hero{
+        margin-top: 150px;
+    }
+
+    .hero .wrapper .overlay img{
+        margin-top: -125px;
+    }
+
+    .myskill h1{
+        font-size: 34px;
+    }
+
+    .myskill .wrapper .skill h2{
+        font-size: 20px;
+    }
+
+    #education .wrap .text{
+        font-size: 34px;
+    }
+
+    #education .wrap .text .education .edulist p:nth-child(1){
+        font-size: 24px;
+    }
+    
+    #education .wrap .text .education .edulist p:nth-child(2){
+        font-size: 11px;
+    }
+
+    #education .wrap .text .education .majoring{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    .home .hero .wrapper h1{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home .hero .wrapper h2{
+        font-size: 30px;
+        justify-content: center;
+        display: flex;
+        background:-webkit-linear-gradient(0deg, #fff 40%, #A259FF 80%) ;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .hero .wrapper .overlay img{
+        margin-top: -5px;
+        width: 10px;
+       
+        
+    }
+
+    .wrapper .wrap .text .h1{
+        font-size: 20px;
+    }
+}

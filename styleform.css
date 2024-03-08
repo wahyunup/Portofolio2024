@@ -39,7 +39,7 @@ body{
 
 .form-control{
     background-color: #3B3B3B;
-    border-radius: 0;
+    border-radius: 8px;
     border: none;
 }
 
@@ -55,7 +55,7 @@ body{
 
 .btn{
     width:100% ;
-    border-radius: 0;
+    border-radius: 8px;
     background-color: #A259FF;
     border: none;
 }
@@ -100,4 +100,10 @@ body{
     justify-content: center;
     align-items: center;
     padding: 25px 25px;
+}
+
+@media screen and (max-width: 414px) {
+    .form-control{
+        border-radius: 6px;
+    }
 }
