@@ -248,14 +248,16 @@ body{
 
     .myskill h1{
         font-size: 34px;
+        text-align: center;
     }
 
     .myskill .wrapper .skill h2{
         font-size: 20px;
     }
 
-    #education .wrap .text{
+    #education .wrap h1{
         font-size: 34px;
+        text-align: center;
     }
 
     #education .wrap .text .education .edulist p:nth-child(1){
@@ -295,7 +297,34 @@ body{
         
     }
 
-    .wrapper .wrap .text .h1{
-        font-size: 20px;
+    #education .wrap .text{
+        font-size: 34px;
     }
+
+    #education .wrap .text .education .edulist p:nth-child(1){
+        font-size: 18px;
+    }
+    
+    #education .wrap .text .education .edulist p:nth-child(2){
+        font-size: 12px;
+        padding: 3px 4px;
+        border-radius: 3px;
+    }
+
+    #education .wrap .text .education .majoring{
+        font-size: 10px;
+    }
+
+    .myskill h1{
+        font-size: 34px;
+    }
+
+    .myskill .wrapper .skill h2{
+        font-size: 15px;
+    }
+
+    .myskill .wrapper .skill{
+        padding: 40px;
+    }
+
 }
