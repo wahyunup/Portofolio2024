@@ -188,6 +188,13 @@ body{
 /* footer end */
 
 /* responsive */
+
+@media screen and (max-width: 1366px) {
+    .home .hero .wrapper h1{
+        font-size: 151px;
+    }
+}
+
 @media screen and (max-width: 1080px) {
     .home .hero .wrapper h1{
         font-size: 130px;
