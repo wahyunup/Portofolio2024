@@ -13,6 +13,7 @@
     ">
     <link rel="stylesheet" href="styleaboutme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
 </head>
 <body>
     <header  class="sticky-top " id="navbar">
@@ -44,17 +45,17 @@
             </div>
         </section>
 
-        <section class="myskill" id="myskill">
-            <h1>My Skill</h1>
+        <section  class="myskill" id="myskill">
+            <h1 data-aos="fade-left">My Skill</h1>
             <div class="wrapper">
-                <div class="skill">
+                <div data-aos="fade-left" class="skill">
                     <h2>LANGUAGE</h2>
                     <ul>
                         <li>Indonesia</li>
                         <li>English</li>
                     </ul>
                 </div>
-                <div class="skill">
+                <div data-aos="fade-left" class="skill">
                     <h2>FRONT END</h2>
                     <ul>
                         <li>HTML</li>
@@ -63,20 +64,20 @@
                         <li>Bootstrap</li>
                     </ul>
                 </div>
-                <div class="skill">
+                <div data-aos="fade-left" class="skill">
                     <h2>UI/UX</h2>
                     <ul>
                         <li>FIGMA</li>
                     </ul>
                 </div>
-                <div class="skill">
+                <div data-aos="fade-left" class="skill">
                     <h2>Graphic Design</h2>
                     <ul>
                         <li>Adobe Photoshop</li>
                         <li>Adobe Illustrator</li>
                     </ul>
                 </div>
-                <div class="skill">
+                <div data-aos="fade-left" class="skill">
                     <h2>Soft Skill</h2>
                     <ul>
                         <li>Critical thinking</li>
@@ -89,28 +90,28 @@
             </div>
         </section>
        
-        <section class="wrapper" id="education">
+        <section  class="wrapper" id="education">
             <div class="wrap">
              <div class="text">
                 <div>
-                   <h1 class="text">Education</h1>
+                   <h1 data-aos="fade-up" class="text">Education</h1>
                 </div>
                 <div class="eduwrap">
-                <div class="education">
+                <div data-aos="fade-up" class="education">
                     <div class="edulist">
                         <p>Harisenin.com</p>
                         <p class="purple">2024 - Present</p>
                     </div>
                     <p class="majoring">Fullstack Developer Student</p>
                 </div>
-                <div class="education">
+                <div data-aos="fade-up" class="education">
                     <div class="edulist">
                         <p>Codepolitan</p>
                         <p class="purple">Present</p>
                     </div>
                         <p class="majoring">Fullstack Developer Student</p>
                 </div>
-                <div  class="education">
+                <div data-aos="fade-up" class="education">
                     <div class="edulist">
                         <p>Pamulang University</p>
                         <p class="purple">2021 - Present</p>
@@ -127,8 +128,11 @@
             2024 © All Rights Reserved.
         </div>
     </section>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
     "></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
