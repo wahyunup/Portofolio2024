@@ -110,6 +110,7 @@ body{
 .myskill .wrapper .skill:hover{
     background-image:  linear-gradient(to bottom, #3B3B3B , #A259FF);
     cursor: pointer;
+    transform: rotate(5deg);
 }
 
 /* Myskill end */
@@ -173,6 +174,71 @@ body{
     gap: 10px;
 }
 /* education end */
+
+/* Archivement start */
+#archivement .wrap .text{
+    color: #fff;
+    display: grid;
+    gap: 30px;
+}
+
+#archivement .wrap .text p:nth-child(1){
+    color: #fff;
+}
+
+#archivement .wrap .text .archivement .edulist a:nth-child(2){
+    font-size: 60px;
+    transform: rotate(45deg);
+    color: #fff;
+}
+
+#archivement .wrap .text .archivement .edulist a:nth-child(2){
+   
+}
+
+#archivement .archivement .edulist{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#archivement .archivement .edulist p{
+    font-size: 57px;
+    font-weight: 500;
+}
+
+#archivement .wrap h1{
+    font-size: 87px;
+    font-weight: 600;
+}
+
+#archivement .archivement .edulist .purple{
+    font-size: 36px;
+}
+
+#archivement .archivement {
+    background-color: #3B3B3B;
+    padding: 40px 44px;
+    margin-top: auto;
+    border-radius: 10px;
+}
+
+#archivement .archivement .majoring{
+    margin-top: -20px;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+#archivement .wrap .text .eduwrap{
+    display: grid;
+    gap: 10px;
+}
+
+#archivement .archivement:hover {
+    background-image:  linear-gradient(to left, #3B3B3B , #A259FF);
+}
+/* Archivement End */
 
 /* footer start */
 .footer{
