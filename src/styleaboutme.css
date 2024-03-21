@@ -109,7 +109,6 @@ body{
 
 .myskill .wrapper .skill:hover{
     background-image:  linear-gradient(to bottom, #3B3B3B , #A259FF);
-    cursor: pointer;
     transform: rotate(5deg);
 }
 
