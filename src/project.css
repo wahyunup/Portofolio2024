@@ -61,3 +61,7 @@ body{
 .cardContent img:hover{
     transform: scale(0.9);
 }
+
+.cardContainer a{
+    text-decoration: none;
+}
