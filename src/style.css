@@ -5,7 +5,7 @@ body{
 
 .navbar{
     padding: 20px;
-    background-color: #3B3B3B;
+    background-color: #3B3B3B ;
 }
 
 .nav-parent a{
@@ -28,6 +28,12 @@ body{
 
 .home .wrapper .wrap .text{
     color:#fff; 
+}
+
+.home .wrapper .wrap h1{
+    font-size: 64px;
+    display: inline-block;
+    font-weight: 600;
 }
 
 .home .wrapper .wrap span{
