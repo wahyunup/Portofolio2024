@@ -28,12 +28,15 @@ body{
 
 #project{
     margin-top: 100px;
+
 }
 
 #project .cardContainer{
-    padding-left: 100px;
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 5px;
 }
 
 .cardContent{
