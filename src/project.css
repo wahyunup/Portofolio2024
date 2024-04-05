@@ -1,0 +1,35 @@
+body{
+    background-color: #2B2B2B;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar{
+    padding: 20px;
+    background-color: #3B3B3B;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav-parent a{
+   height: 40px;
+}
+
+.nav-parent span{
+    color: #A259FF;
+    font-weight:700;
+    margin-left: 5px;
+}
+
+.nav-link:hover{
+    border-bottom: 2.5px solid #A259FF;
+}
+
+.navbar-toggler{
+    background-color: #A259FF;
+}
+
+.home{
+    display: grid;
+    gap: 400px;
+}
